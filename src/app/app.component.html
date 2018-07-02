@@ -1,0 +1,11 @@
+<app-nav-bar></app-nav-bar>
+<div class="container">
+  <app-post-create (postCreated)="onPostAdded($event)"></app-post-create>
+  <app-post-list [posts]="storedPosts"></app-post-list>
+</div>
+<!--
+<div class="container">
+        <<flash-messages></flash-messages>
+    <router-outlet></router-outlet>
+</div>
+-->

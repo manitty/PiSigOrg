@@ -1,5 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
 
+import { Post } from './posts.model';
+
+
 @Component({
   selector: 'app-post-list',
   templateUrl: './post-list.component.html',
